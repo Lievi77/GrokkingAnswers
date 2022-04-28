@@ -16,6 +16,9 @@
 # Explanation: The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
 
 def longest_substring_with_k_distinct(str, k):
+    #TIME COMPLEXITY = O(N)
+    #SPACE COMPLEXITY = 0(K) since we are storing at most k+1 characters in the hashmap
+
     longest_length = 0
     window_start = 0
     #we need to remember the frequency of letters -> hashmap

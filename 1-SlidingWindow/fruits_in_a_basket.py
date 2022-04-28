@@ -17,6 +17,9 @@
 # The phrase "you can't skip a tree" implies a contingent solution
 
 def fruits_into_baskets(fruits):
+    #TIME COMPLEXITY : O(N)
+    #SPACE COMPLEXITY IS O(3) = O(1) because we store at most 3 different elements inside the hashmap
+
     #two baskets 
     max_fruits = 0
     window_start = 0
