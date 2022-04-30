@@ -32,6 +32,7 @@ def non_repeat_substring(str):
         if end_char in characters:
             #incoming end char violates problem's constraint
             i =  max(i,characters[end_char] +1 )
+            #characters[end_car] + 1 means discard all elements prior to and including the first occurance of end_car
         
         characters[end_char] = j 
         max_length = max(max_length, j - i + 1)

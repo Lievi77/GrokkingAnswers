@@ -19,6 +19,8 @@
 import math 
 def smallest_subarray_with_given_sum(s,arr):
     #Regular sliding window problem except that window's size is not fixed
+    #TIME COMPLEXITY = O(N)
+    #Space complexity = O(1)
 
     # Sum of subarray must be equal or greater than s
     window_sum = 0
